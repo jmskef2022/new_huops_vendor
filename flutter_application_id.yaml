@@ -1,0 +1,7 @@
+flutter_application_id:
+  android:
+    id: "com.huopsapp.vendors"
+    name: "Huops Vendor"
+  ios:
+    id: "com.huops.vendorsapp"
+    name: "Huops Vendor"
