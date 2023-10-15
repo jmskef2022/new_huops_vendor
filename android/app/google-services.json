@@ -1,0 +1,121 @@
+{
+  "project_info": {
+    "project_number": "466513854712",
+    "project_id": "flutter-huops-app",
+    "storage_bucket": "flutter-huops-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466513854712:android:b7424c77f93b376c7ebb0d",
+        "android_client_info": {
+          "package_name": "app.app.com.tset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466513854712-rasrqcpv12cit80sl752rp1af4vma15f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwy_UVX4c2j4kiLi-oenlzh7QPu1ROzew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466513854712-rasrqcpv12cit80sl752rp1af4vma15f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466513854712:android:4e7fe357e13a4ea77ebb0d",
+        "android_client_info": {
+          "package_name": "com.huopsapp.jmskef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466513854712-bstekgjlgud59pgklqbjma88964tla0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.huopsapp.jmskef",
+            "certificate_hash": "a2aab53bd3cf7669f3a6b7f705b0b4c1227f41a1"
+          }
+        },
+        {
+          "client_id": "466513854712-dlrrq5sj0v8up1kg22i7k8elt00fqv3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.huopsapp.jmskef",
+            "certificate_hash": "a040f302c3155647f19ae451ebfdc20a7d8fe92c"
+          }
+        },
+        {
+          "client_id": "466513854712-oi1c0dr2i3sg22a6op2ae8df70cmqulj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.huopsapp.jmskef",
+            "certificate_hash": "67ee692b602255c0f030c83832f73dd6538342e8"
+          }
+        },
+        {
+          "client_id": "466513854712-rasrqcpv12cit80sl752rp1af4vma15f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwy_UVX4c2j4kiLi-oenlzh7QPu1ROzew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466513854712-rasrqcpv12cit80sl752rp1af4vma15f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466513854712:android:db0b1798c68634aa7ebb0d",
+        "android_client_info": {
+          "package_name": "com.huopsapp.vendors"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466513854712-rasrqcpv12cit80sl752rp1af4vma15f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwy_UVX4c2j4kiLi-oenlzh7QPu1ROzew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466513854712-rasrqcpv12cit80sl752rp1af4vma15f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
