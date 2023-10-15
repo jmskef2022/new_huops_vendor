@@ -7,9 +7,9 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:fuodz/constants/app_languages.dart';
 import 'package:fuodz/my_app.dart';
+import 'package:fuodz/services/firebase.service.dart';
 import 'package:fuodz/services/general_app.service.dart';
 import 'package:fuodz/services/local_storage.service.dart';
-import 'package:fuodz/services/firebase.service.dart';
 import 'package:fuodz/services/notification.service.dart';
 import 'package:localize_and_translate/localize_and_translate.dart';
 
@@ -29,7 +29,6 @@ void main() async {
       WidgetsFlutterBinding.ensureInitialized();
       //setting up firebase notifications
       await Firebase.initializeApp();
-
       await translator.init(
         localeType: LocalizationDefaultType.asDefined,
         languagesList: AppLanguages.codes,

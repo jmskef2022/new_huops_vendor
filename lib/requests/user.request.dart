@@ -16,8 +16,13 @@ class UserRequest extends HttpService {
     );
     //
     final apiResponse = ApiResponse.fromResponse(apiResult);
+    print(apiResponse.body);
+    print(apiResponse.data);
+
     if (apiResponse.allGood) {
       return apiResponse.data.map((jsonObject) {
+        print(jsonObject.toString());
+
         return User.fromJson(jsonObject);
       }).toList();
     } else {

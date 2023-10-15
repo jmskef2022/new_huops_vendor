@@ -16,6 +16,7 @@ class AssignOrderViewModel extends MyBaseViewModel {
   //
   fetchDrivers() async {
     setBusy(true);
+    print('get online deivers');
     try {
       drivers = await userRequest.getUsers(
         role: "driver",
