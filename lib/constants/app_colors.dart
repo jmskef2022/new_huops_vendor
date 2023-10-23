@@ -6,6 +6,17 @@ import 'package:fuodz/services/local_storage.service.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class AppColor {
+  static Gradient LightBg = LinearGradient(
+    stops: [0.3, 0.5, 0.9],
+    begin: Alignment.topCenter,
+    end: Alignment.bottomCenter,
+    colors: [
+      Vx.hexToColor("#312B48"),
+      Vx.hexToColor("#3E2040"),
+      Vx.hexToColor("#020A0F"),
+    ],
+  );
+
   static Color get accentColor => Vx.hexToColor(colorEnv('accentColor'));
   static Color get primaryColor => Vx.hexToColor(colorEnv('primaryColor'));
   static Color get primaryColorDark =>

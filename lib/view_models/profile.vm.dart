@@ -3,8 +3,6 @@ import 'dart:io';
 import 'package:cool_alert/cool_alert.dart';
 import 'package:custom_faqs/custom_faqs.dart';
 import 'package:flutter/material.dart';
-import 'package:fuodz/views/pages/profile/account_delete.page.dart';
-import 'package:fuodz/views/pages/splash.page.dart';
 import 'package:fuodz/constants/api.dart';
 import 'package:fuodz/constants/app_routes.dart';
 import 'package:fuodz/constants/app_strings.dart';
@@ -12,9 +10,11 @@ import 'package:fuodz/models/user.dart';
 import 'package:fuodz/requests/auth.request.dart';
 import 'package:fuodz/services/auth.service.dart';
 import 'package:fuodz/view_models/base.view_model.dart';
+import 'package:fuodz/views/pages/profile/account_delete.page.dart';
+import 'package:fuodz/views/pages/splash.page.dart';
 import 'package:fuodz/widgets/cards/language_selector.view.dart';
-import 'package:localize_and_translate/localize_and_translate.dart';
 import 'package:in_app_review/in_app_review.dart';
+import 'package:localize_and_translate/localize_and_translate.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -44,6 +44,11 @@ class ProfileViewModel extends MyBaseViewModel {
   /**
    * Edit Profile
    */
+  openBookedTable() async {
+    final result = await Navigator.of(viewContext).pushNamed(
+      AppRoutes.bookedTable,
+    );
+  }
 
   openEditProfile() async {
     final result = await Navigator.of(viewContext).pushNamed(

@@ -1,9 +1,9 @@
 import 'dart:io';
+
 import 'package:dio/dio.dart';
 import 'package:dio_http_cache_lts/dio_http_cache_lts.dart';
 import 'package:fuodz/constants/api.dart';
 import 'package:localize_and_translate/localize_and_translate.dart';
-
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'auth.service.dart';
@@ -99,6 +99,28 @@ class HttpService {
           );
 
     return dio.post(
+      uri,
+      data: body,
+      options: mOptions,
+    );
+  }
+
+  Future<Response> put(
+    String url,
+    body, {
+    bool includeHeaders = true,
+  }) async {
+    //preparing the api uri/url
+    String uri = "$host$url";
+
+    //preparing the post options if header is required
+    final mOptions = !includeHeaders
+        ? null
+        : Options(
+            headers: await getHeaders(),
+          );
+
+    return dio.put(
       uri,
       data: body,
       options: mOptions,

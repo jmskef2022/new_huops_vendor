@@ -8,8 +8,8 @@ import 'package:fuodz/view_models/profile.vm.dart';
 import 'package:fuodz/views/pages/profile/paymet_accounts.page.dart';
 import 'package:fuodz/widgets/busy_indicator.dart';
 import 'package:fuodz/widgets/menu_item.dart';
-import 'package:velocity_x/velocity_x.dart';
 import 'package:localize_and_translate/localize_and_translate.dart';
+import 'package:velocity_x/velocity_x.dart';
 
 class ProfileCard extends StatelessWidget {
   const ProfileCard(this.model, {Key key}) : super(key: key);
@@ -70,7 +70,6 @@ class ProfileCard extends StatelessWidget {
           },
           topDivider: true,
         ),
-
 
         //
         MenuItem(

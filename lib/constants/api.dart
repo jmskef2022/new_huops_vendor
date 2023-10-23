@@ -39,6 +39,10 @@ class Api {
   //Payment accounts
   static const paymentAccount = "/payment/accounts";
   static const payoutRequest = "/payouts/request";
+  //
+//reverzation
+  static const getTableReservation = "/table_reservations";
+  static const upadteTableReservation = "/table_reservations/update";
 
   //
   static const vendorDetails = "/vendor/id/details";

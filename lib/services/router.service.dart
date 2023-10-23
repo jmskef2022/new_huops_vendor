@@ -1,11 +1,12 @@
 import 'package:firestore_chat/firestore_chat.dart';
 import 'package:flutter/material.dart';
 import 'package:fuodz/constants/app_routes.dart';
-import 'package:fuodz/models/order.dart';
 import 'package:fuodz/models/notification.dart';
+import 'package:fuodz/models/order.dart';
 import 'package:fuodz/models/product.dart';
 import 'package:fuodz/views/pages/auth/forgot_password.page.dart';
 import 'package:fuodz/views/pages/auth/login.page.dart';
+import 'package:fuodz/views/pages/booking/bookings.dart';
 import 'package:fuodz/views/pages/home.page.dart';
 import 'package:fuodz/views/pages/notification/notification_details.page.dart';
 import 'package:fuodz/views/pages/notification/notifications.page.dart';
@@ -58,6 +59,11 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       return MaterialPageRoute(
         settings: RouteSettings(name: AppRoutes.editProfileRoute),
         builder: (context) => EditProfilePage(),
+      );
+    case AppRoutes.bookedTable:
+      return MaterialPageRoute(
+        settings: RouteSettings(name: AppRoutes.editProfileRoute),
+        builder: (context) => Bookings(),
       );
 
     //change password
